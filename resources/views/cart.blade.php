@@ -67,7 +67,9 @@
                   <td>&nbsp;</td>
                   <td>&nbsp;</td>
                   <td>
-                    <button type="button" class="btn btn-primary">Checkout</button>
+                    <a class="btn btn-primary" href="{{route('address')}}">Checkout</button>
+                    
+                    <a class="btn btn-primary ml-4" href="{{route('menu') }}">Continue Shopping</a>
                   </td>
                 </tr>
             </table>
